@@ -11,7 +11,7 @@ I used math.floor to random select an integer of the three options 0 = rock, 1 =
 For coding purposes I have included a alert function in the code so I can see what choices the rock is selecting and that it is actually selecting one of the three actual possibilities. This will be replaced with "return" as I move forward.
 
 
-UPDATE 03/21/2024
+UPDATE 03/21/2024 at 5:16pm GMT+3
 --------------------------------------
 Renamed function computerSelection to getComputerSelection.
 
