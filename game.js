@@ -1,5 +1,5 @@
 //this prompts the player to choice rock, paper, or scissors//
-const choices = ("rock", "paper", "scissors");
+let choices = ("rock", "paper", "scissors");
 
 
 //this prompts the player to choice rock, paper, or scissors//
@@ -20,11 +20,11 @@ function getPlayerSelection() {
 //This gets the computer to choice rock, paper, or scissors.//
 function getComputerSelection() {
     let computerSelected = Math.floor(Math.random(choices) * 3);
-    if(computerSelected = 0){
+    if(computerSelected === 0){
         return "rock";
-    } else if(computerSelected = 1) {
+    } else if(computerSelected === 1) {
         return "paper";
-    } else if(computerSelected = 2) {
+    } else if(computerSelected === 2) {
         return "scissors";
     } else {
         return "invalid!";
