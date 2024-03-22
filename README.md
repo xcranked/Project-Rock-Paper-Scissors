@@ -20,3 +20,11 @@ getComputerSelection now uses else if statements to determine if the computer ha
 Created function getPlayerSelection that uses a variable prompt to ask the player their choice. It also include .toLocaleLowerCase ensuring that any choice typed in is lowercase.
 
 getPlayerSelection uses else if statements to determine if the typed in answer matches one of the choices, else return "Invalid!".
+
+UPDATE 03/22/2024 at 4:08pm GMT+3
+--------------------------------------
+CREATED game.html and style.css
+
+game.html is a basic webpage styled in CSS to hold the user interface for playing ROCK-PAPER-SCISSORS.
+
+It took me a while to figure out exactly how I wanted to layout the game, and it might eventually change again. For now, the user interface will be in this layout until the game is complete.
