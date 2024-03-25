@@ -32,7 +32,7 @@ function getComputerSelection() {
 }
 
 //This alerts to browser each choice.//
-alert("Computer chose: " + getComputerSelection() + "\nYou chose: " + getPlayerSelection());
+//alert("Computer chose: " + getComputerSelection() + "\nYou chose: " + getPlayerSelection());
 
 
 
